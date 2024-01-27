@@ -1,0 +1,44 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <img src="https://avatars.githubusercontent.com/u/120739623?v=4" alt="Andres Parra photo profile" />
+      <h1>Hello, I'm Andres!</h1>
+      <p>
+        Welcome to the official <a href="https://astro.build/">Astro</a> blog starter
+        template. This template serves as a lightweight, minimally-styled starting
+        point for anyone looking to build a personal website, blog, or portfolio
+        with Astro.
+      </p>
+      <p>
+        A Software Feveloper. I specialize in Web development, Frontend and
+        Backend. In technologies as Javascript, Typescript, React, Express.
+      </p>
+    </main>
+    <Footer />
+  </body><style>
+    main {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    img {
+      max-width: 100px;
+      border-radius: 100%;
+    }
+  </style>
+</html>
