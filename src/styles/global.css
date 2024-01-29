@@ -169,11 +169,14 @@ ol {
   color: var(--text-light-color);
   text-decoration: none;
   padding: 0.8rem 1.6rem;
+  user-select: none;
+  transition: all 200ms;
 }
 
 .button:hover {
   color: var(--text-light-color);
-  opacity: 0.8;
+  opacity: 0.9;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .section {
