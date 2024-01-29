@@ -4,7 +4,10 @@ import HeaderLink from "./HeaderLink.astro";
 
 <header>
   <nav>
-    <h2><a href="/">@byandrev</a></h2>
+    <h2>
+      <img src="/favicon-32x32.png" alt="logo byandrev" />
+      <a href="/">byandrev</a>
+    </h2>
     <div class="internal-links">
       <HeaderLink href="/">Inicio</HeaderLink>
       <HeaderLink href="/blog">Blog</HeaderLink>
@@ -18,37 +21,42 @@ import HeaderLink from "./HeaderLink.astro";
     max-width: calc(100% - 2em);
     margin: 0 auto;
   }
+
   h2 {
     margin: 0;
     font-size: 1em;
+    display: flex;
+    align-items: center;
   }
 
   h2 a,
   h2 a.active {
     text-decoration: none;
+    margin-top: 0.4rem;
+    padding: 0;
   }
+
   nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   nav a {
     padding: 1em 0.5em;
     color: var(--black);
     border-bottom: 4px solid transparent;
     text-decoration: none;
   }
+
   nav a.active {
     text-decoration: none;
-    /* border-bottom-color: var(--accent); */
   }
-  .social-links,
-  .social-links a {
-    display: flex;
-  }
-  @media (max-width: 720px) {
-    .social-links {
-      display: none;
+
+  @media (max-width: 500px) {
+    nav {
+      display: flex;
+      flex-direction: column;
     }
   }
 </style>

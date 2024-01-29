@@ -18,7 +18,8 @@ const posts = (await getCollection("blog")).sort(
     <BaseHead title={`Blog - ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
     <style>
       main {
-        width: 960px;
+        max-width: 720px;
+        width: 90%;
       }
       ul {
         display: flex;
@@ -57,23 +58,14 @@ const posts = (await getCollection("blog")).sort(
         color: rgb(var(--accent));
       }
 
-      ul a:hover img {
-        box-shadow: var(--box-shadow);
-      }
-
       @media (max-width: 720px) {
         ul {
           gap: 0.5em;
         }
+
         ul li {
           width: 100%;
           text-align: center;
-        }
-        ul li:first-child {
-          margin-bottom: 0;
-        }
-        ul li:first-child .title {
-          font-size: 1.563em;
         }
       }
     </style>
@@ -101,10 +93,11 @@ const posts = (await getCollection("blog")).sort(
     </main>
 
     <Footer />
-  </body><style>
-    li {
-      padding: 1rem;
-      border-bottom: 1px solid var(--text-light-color);
-    }
-  </style>
+    <style>
+      li {
+        padding: 1rem;
+        border-bottom: 1px solid var(--text-light-color);
+      }
+    </style>
+  </body>
 </html>
