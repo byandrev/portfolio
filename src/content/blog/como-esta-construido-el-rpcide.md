@@ -3,6 +3,7 @@ title: "Como esta construido el RPCIDE"
 description: "Explicación de como está construido el RPCIDE y como funciona, así como los componentes que lo conforman."
 pubDate: "Aug 26 2023"
 heroImage: "/blog-placeholder-3.jpg"
+tags: rpcide
 ---
 
 ## Introduccion

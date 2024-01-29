@@ -3,6 +3,7 @@ title: "Crea la bandera de Colombia con HTML y CSS"
 description: "El día de hoy les enseñaré como crear la bandera de Colombia usando tan solo HTML y CSS con pocas líneas de código."
 pubDate: "Jun 19 2021"
 heroImage: "/blog-placeholder-4.jpg"
+tags: html,css
 ---
 
 HTML y CSS muchas veces son menos preciados porque no son lenguaje de programación, pero aun así son muy importantes para la web. Con CSS no tan solo se pueden hacer estilos, sino que también se pueden hacer dibujos, ilustraciones, videojuegos, etc. Aquí te dejo un hermoso proyecto de arte con CSS [DibujarteCSS](https://dibujartecss.musarte.dev).

@@ -3,6 +3,7 @@ title: "Comienza en la programación competitiva"
 description: "La programación competitiva es un emocionante y desafiante mundo en el que los programadores ponen a prueba sus habilidades de resolución de problemas y su capacidad para escribir código eficiente en un entorno de competencia."
 pubDate: "Jun 16 2023"
 heroImage: "https://firebasestorage.googleapis.com/v0/b/blog-e296e.appspot.com/o/posts%2Fcomienza-en-la-programacion-competitiva%2Fcomienza-en-la-programacion-competitiva.png?alt=media&token=f99fc3c1-44da-415c-b8c1-6cbae6b4aaf4"
+tags: programacion-competitiva
 ---
 
 Me gusta decir que la programación competitiva es como un deporte donde los programadores compiten entre sí para resolver problemas de programación en un tiempo limitado. Te mostrare los pasos que debes seguir para empezar en esto.
