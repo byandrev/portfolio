@@ -1,7 +1,7 @@
 ---
 title: "Crea la bandera de Colombia con HTML y CSS"
 description: "El día de hoy les enseñaré como crear la bandera de Colombia usando tan solo HTML y CSS con pocas líneas de código."
-pubDate: "Jul 22 2022"
+pubDate: "Jun 19 2021"
 heroImage: "/blog-placeholder-4.jpg"
 ---
 
