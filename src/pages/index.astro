@@ -2,43 +2,55 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
     <Header title={SITE_TITLE} />
     <main>
-      <img src="https://avatars.githubusercontent.com/u/120739623?v=4" alt="Andres Parra photo profile" />
-      <h1>Hello, I'm Andres!</h1>
-      <p>
-        Welcome to the official <a href="https://astro.build/">Astro</a> blog starter
-        template. This template serves as a lightweight, minimally-styled starting
-        point for anyone looking to build a personal website, blog, or portfolio
-        with Astro.
-      </p>
-      <p>
-        A Software Feveloper. I specialize in Web development, Frontend and
-        Backend. In technologies as Javascript, Typescript, React, Express.
-      </p>
+      <h1>Andres Parra</h1>
+      <p class="subtitle">👨‍💻 Software Engineer</p>
+
+      <section class="section">
+        <h2>Acerca de mí</h2>
+        <p>
+          Me especializo en Desarrollo Web, Frontend y Backend. En tecnologías
+          como Javascript, Typescript, React, Express.
+        </p>
+        <a href="/about" class="button">Más acerca de mí</a>
+      </section>
     </main>
+
     <Footer />
-  </body><style>
-    main {
-      text-align: center;
-    }
 
-    h1 {
-      font-size: 2rem;
-    }
+    <style>
+      h1 {
+        font-size: 2.5rem;
+      }
 
-    img {
-      max-width: 100px;
-      border-radius: 100%;
-    }
-  </style>
+      .subtitle {
+        margin: 0;
+        font-size: 1.3rem;
+        color: var(--text-alt-color);
+      }
+
+      h2 {
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+      }
+
+      blockquote {
+        margin-top: 4rem;
+        font-size: 1.2rem;
+      }
+    </style>
+  </body>
 </html>
