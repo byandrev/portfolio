@@ -1,0 +1,14 @@
+---
+const { content } = Astro.props;
+---
+
+<p class="note">{content}</p>
+
+<style>
+  p.note {
+    margin-top: 2rem ;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--yellow-color);
+  }
+</style>
