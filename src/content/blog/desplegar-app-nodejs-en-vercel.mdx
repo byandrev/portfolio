@@ -1,0 +1,48 @@
+---
+title: "Cómo desplegar una aplicación de Node.js en Vercel"
+description: ""
+pubDate: "Jan 29 2024"
+heroImage: ""
+tags: nodejs,vercel,deploy
+---
+
+import Note from "../../components/Note.astro";
+
+En este artículo aprenderás cómo desplegar una aplicación de Node.js en Vercel. Descubrirás los pasos necesarios para configurar tu proyecto, conectarlo con Vercel y desplegarlo en línea para que puedas compartirlo con el mundo. ¡No te lo pierdas!
+
+Crea un archivo `vercel.json` en la raíz de tu proyecto con el siguiente contenido.
+
+```json
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node",
+      "config": { "includeFiles": ["*"] }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ]
+}
+```
+
+<Note content="Debes cambiar donde está index.js por tu archivo principal del proyecto." />
+
+Existen dos opciones para desplegarlo en Vercel. Podemos hacerlo utilizando la CLI de Vercel, pero en este ejemplo utilizaremos la segunda opcion que es con Github.
+
+Crea un repositorio y sube el proyecto. También  debes crearte una cuenta en [Vercel](https://vercel.com/), puede ser con tu cuenta de Github. Lo siguiente es crear un nuevo proyecto en el panel de Vercel.
+
+![Click al boton New Add en el Dashboard de Vercel](https://firebasestorage.googleapis.com/v0/b/blog-e296e.appspot.com/o/posts%2Fdesplegar-app-nodejs-en-vercel%2Fclick-add-new.png?alt=media&token=0506a6e9-e2a6-4c0d-815f-7509c0c0fd1d)
+
+Importa el proyecto que quieres desplegar.
+
+![Importar proyecto a Vercel](https://firebasestorage.googleapis.com/v0/b/blog-e296e.appspot.com/o/posts%2Fdesplegar-app-nodejs-en-vercel%2Fimport-project.png?alt=media&token=50f45386-21d5-4f47-ae03-08cee3637033)
+
+Ya puedes desplegar tu proyecto, esto tomará un tiempo y ya se podrá visualizar tu app.
+
+![Desplegar proyecto en Vercel](https://firebasestorage.googleapis.com/v0/b/blog-e296e.appspot.com/o/posts%2Fdesplegar-app-nodejs-en-vercel%2Fdeploy-project.png?alt=media&token=bbb92576-e6d3-4b0e-a64a-6371d68419c5)
