@@ -98,6 +98,8 @@ require("lazy").setup({
 
 Con lazy.nvim, tus plugins se cargarán solo cuando los necesites, lo que puede acelerar significativamente el tiempo de inicio de Neovim.
 
+Puedes visitar el siguiente repositorio donde esta la configuración [https://github.com/byandrev/minimal-neovim-config](https://github.com/byandrev/minimal-neovim-config).
+
 
 ## Conclusiones
 
