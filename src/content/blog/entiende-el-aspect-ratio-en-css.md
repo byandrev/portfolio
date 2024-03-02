@@ -35,7 +35,7 @@ selector {
 
 Con el aspect ratio evitamos el [layout shift](https://web.dev/articles/cls), este es algo muy incómodo que suele suceder en los sitios webs. El layout shift hace referencia al movimiento inesperado del contenido de la web cuando los elementos están cargando.
 
-Aquí tienes un ejemplo sin el uso del aspect ratio y otro con esta propiedad, cuando no se usa el botón se traslada cuando carga la imagen, a esto se le llama layout shift.
+Aquí tienes un ejemplo sin el uso del aspect ratio y otro con esta propiedad, cuando no se usa el botón se traslada cuando carga la imagen, a esto se le conoce como layout shift.
 
 <video src="https://firebasestorage.googleapis.com/v0/b/blog-e296e.appspot.com/o/posts%2Faspect-radio-en-css%2FAspect%20Ratio%20Article(1).mp4?alt=media&token=c5d36ecb-22ad-4ec9-bdd3-aee7c9c469c7" alt="Video explicando el uso de la propiedad aspect ratio en css" autoplay loop mute></video>
 
