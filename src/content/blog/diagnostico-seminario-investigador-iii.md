@@ -96,7 +96,7 @@ Software de código abierto ofrece a los usuarios la posibilidad de crear, modif
 
 [https://automata-simulation.vercel.app/](https://automata-simulation.vercel.app/)
 
-<video src="https://automata-simulation.vercel.app/test-tm.mp4" loop autoPlay />
+![Preview Automara Simulation](https://i.imgur.com/EtXeDBV.png)
 
 ## Referencias
 
