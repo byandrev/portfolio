@@ -52,8 +52,6 @@ En este no enseñaron a hacer un trabajo más profesional, a documentar un proye
 
 ![Preview Prestamo de Salas](https://i.imgur.com/TPd0fit.png)
 
-
-
 <br />
 
 ## Proyectos
@@ -99,3 +97,10 @@ Software de código abierto ofrece a los usuarios la posibilidad de crear, modif
 [https://automata-simulation.vercel.app/](https://automata-simulation.vercel.app/)
 
 <video src="https://automata-simulation.vercel.app/test-tm.mp4" loop autoPlay />
+
+## Referencias
+
+* [https://concepto.de/ciencia/](https://concepto.de/ciencia/)
+* [https://www.significados.com/equipo/](https://www.significados.com/equipo/)
+* [https://www.euroinnova.com/blog/que-es-metodo-y-metodologia](https://www.euroinnova.com/blog/que-es-metodo-y-metodologia)
+* [https://ingsistemas.cloud.ufps.edu.co/index.php?id=97](https://ingsistemas.cloud.ufps.edu.co/index.php?id=97)
