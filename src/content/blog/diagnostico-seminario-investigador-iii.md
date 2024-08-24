@@ -34,13 +34,13 @@ tags: university
 
 ### Seminario Integrador I
 
-En este seminario desarrollamos nuestro primer proyecto en un equipo y aprendí a como manejar esto. Desarrollamos un ecommerce para una empresa de venta de ropa en WordPress.
+En este seminario desarrollé mi primer proyecto en un equipo y aprendí a como manejarlo, como por ejemplo, a como comunicarme, dividir las tareas. Desarrollamos un ecommerce para una empresa de venta de ropa en WordPress.
 
 ![Preview Zafnat](https://i.imgur.com/dOMMcKA.png)
 
 ### Seminario de Investigacion I
 
-En este aprendí a como hacer una investigación, donde buscar, como referencias, como escribir y explicar lo que quiero decir. Hice una investigación sobre la "Dificultad en el aprendizaje de la asignatura estructura de datos", en la cual encontramos muchos factores que afectan el aprendizaje de los estudiantes.
+En este aprendí a como hacer una investigación, donde buscar, como referenciar, como escribir y explicar lo que quiero decir. Hice una investigación sobre la "Dificultad en el aprendizaje de la asignatura estructura de datos", en la cual se encontraron muchos factores que afectan el aprendizaje de los estudiantes.
 
 ### Seminario de Investigacion II
 
@@ -48,7 +48,7 @@ En este seminario continuamos con el trabajo del anterior de seminario de invest
 
 ### Seminario Integrador II
 
-En este no enseñaron a hacer un trabajo más profesional, a documentar un proyecto de software de mucha mejorar, haciendo actas, toma de requerimientos, creación de historias de usuarios, diseño de prototipos y por último el desarrollo. Desarrollamos con un equipo de 6 integrantes un sistema para el departamento sistemas que ayuda a los estudiantes y docentes pedir salas prestadas del área de sistemas.
+En este nos enseñaron a hacer un trabajo más profesional, a documentar un proyecto de software de mejora manera, creación de actas, toma de requerimientos, creación de historias de usuarios, diseño de prototipos, desarrollo. Desarrollamos con un equipo de 6 integrantes un sistema para el departamento sistemas que ayuda a los estudiantes y docentes pedir préstamo de salas en el area de sistemas.
 
 ![Preview Prestamo de Salas](https://i.imgur.com/TPd0fit.png)
 
